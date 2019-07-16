@@ -15,6 +15,7 @@
 		2A61F54622DE318900F43C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A61F54422DE318900F43C94 /* LaunchScreen.storyboard */; };
 		2A61F55122DE318900F43C94 /* ToShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A61F55022DE318900F43C94 /* ToShareTests.swift */; };
 		2A61F55C22DE318900F43C94 /* ToShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A61F55B22DE318900F43C94 /* ToShareUITests.swift */; };
+		2A61F56A22DE319300F43C94 /* AmountInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A61F56922DE319300F43C94 /* AmountInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2A61F55722DE318900F43C94 /* ToShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A61F55B22DE318900F43C94 /* ToShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToShareUITests.swift; sourceTree = "<group>"; };
 		2A61F55D22DE318900F43C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A61F56922DE319300F43C94 /* AmountInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmountInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				2A61F53922DE318800F43C94 /* AppDelegate.swift */,
 				2A61F53B22DE318800F43C94 /* SceneDelegate.swift */,
 				2A61F53D22DE318800F43C94 /* ContentView.swift */,
+				2A61F56922DE319300F43C94 /* AmountInput.swift */,
 				2A61F53F22DE318900F43C94 /* Assets.xcassets */,
 				2A61F54422DE318900F43C94 /* LaunchScreen.storyboard */,
 				2A61F54722DE318900F43C94 /* Info.plist */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A61F56A22DE319300F43C94 /* AmountInput.swift in Sources */,
 				2A61F53A22DE318800F43C94 /* AppDelegate.swift in Sources */,
 				2A61F53C22DE318800F43C94 /* SceneDelegate.swift in Sources */,
 				2A61F53E22DE318800F43C94 /* ContentView.swift in Sources */,
