@@ -13,7 +13,12 @@ struct AmountInput : View {
     //    let copy: Int { amount.value }
     //    var copy: Int { $amount.value }
     
-    //    @State private var copy: Int
+        @State private var copy: Int
+    
+    init(binding: Binding<Int>) {
+        $amount = binding
+        self.copy = binding.value
+    }
     
     var body: some View {
         
@@ -42,7 +47,7 @@ struct showAmountInput : View {
     
     var body: some View {
         NavigationView {
-            AmountInput(amount: $amount)
+            AmountInput(binding: $amount)
         }
     }
 }
